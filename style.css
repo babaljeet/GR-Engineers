@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600;1,700&family=Roboto+Condensed:wght@300;400;700&display=swap');
+body
+{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.site-content
+{
+    background-image: url('back2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.site-content2
+{
+    background-image: url('back6.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.site-content3
+{
+    background-image: url('back6.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.site-content-products{
+    background-image: url('back7.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.site-bodyshop
+{
+    background-image: url('backcarcustom.jpg');
+    background-attachment: fixed;
+    background-size: cover;   
+}
+
+.site-contact
+{
+    background-image: url('back8.jpg');
+    background-attachment: fixed;
+    background-size: cover;   
+}
+
+.site-carmodify
+{
+    background-image: url('carmodify.jpg');
+    background-attachment: fixed;
+    background-size: cover;  
+}
+
+#gr .card{
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #33b5e5;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+
+.custhead, .featurette-heading, .lead, .text-muted
+{
+    color: whitesmoke;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+
+.fa:hover 
+{
+    opacity: 1;
+}
+  
+
+  
+
+.fa-facebook 
+{
+    background: #3B5998;
+    color: whitesmoke;
+}
+  
+
+.fa-twitter 
+{
+    background: #55ACEE;
+    color: whitesmoke;
+}
+
+/* .fa-whatsapp 
+{
+    background: #4fce5d;
+    color: whitesmoke;
+} */
+
+.fa-linkedin 
+{
+    background: #4875B4;
+    color: whitesmoke;
+}
+
+.centerdiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.jumbotron
+{
+    background: rgba(204, 204, 204, 0.5);
+}
+
+.card
+{
+    background-color: rgba(204, 204, 204, 0.5);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.card:hover
+{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.img-fluid
+{
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.img-fluid:hover
+{
+    transform: scale(1.05);
+}
+
+.link-bottom
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;  
+}
+
+.link-bottom
+{
+    columns: inherit;
+}

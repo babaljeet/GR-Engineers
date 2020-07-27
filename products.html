@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G.R.Engineers</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/jpg" href="favicon.png">
+    <title>G.R.Engineers</title>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <a href="/GR-Engineers/index.html" class="navbar-brand"><span
+                style="font-weight:bold  ;">G.R.Engineers</span>&#160<svg width="1em" height="1em" viewBox="0 0 16 16"
+                class="bi bi-gear" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                    d="M8.837 1.626c-.246-.835-1.428-.835-1.674 0l-.094.319A1.873 1.873 0 0 1 4.377 3.06l-.292-.16c-.764-.415-1.6.42-1.184 1.185l.159.292a1.873 1.873 0 0 1-1.115 2.692l-.319.094c-.835.246-.835 1.428 0 1.674l.319.094a1.873 1.873 0 0 1 1.115 2.693l-.16.291c-.415.764.42 1.6 1.185 1.184l.292-.159a1.873 1.873 0 0 1 2.692 1.116l.094.318c.246.835 1.428.835 1.674 0l.094-.319a1.873 1.873 0 0 1 2.693-1.115l.291.16c.764.415 1.6-.42 1.184-1.185l-.159-.291a1.873 1.873 0 0 1 1.116-2.693l.318-.094c.835-.246.835-1.428 0-1.674l-.319-.094a1.873 1.873 0 0 1-1.115-2.692l.16-.292c.415-.764-.42-1.6-1.185-1.184l-.291.159A1.873 1.873 0 0 1 8.93 1.945l-.094-.319zm-2.633-.283c.527-1.79 3.065-1.79 3.592 0l.094.319a.873.873 0 0 0 1.255.52l.292-.16c1.64-.892 3.434.901 2.54 2.541l-.159.292a.873.873 0 0 0 .52 1.255l.319.094c1.79.527 1.79 3.065 0 3.592l-.319.094a.873.873 0 0 0-.52 1.255l.16.292c.893 1.64-.902 3.434-2.541 2.54l-.292-.159a.873.873 0 0 0-1.255.52l-.094.319c-.527 1.79-3.065 1.79-3.592 0l-.094-.319a.873.873 0 0 0-1.255-.52l-.292.16c-1.64.893-3.433-.902-2.54-2.541l.159-.292a.873.873 0 0 0-.52-1.255l-.319-.094c-1.79-.527-1.79-3.065 0-3.592l.319-.094a.873.873 0 0 0 .52-1.255l-.16-.292c-.892-1.64.902-3.433 2.541-2.54l.292.159a.873.873 0 0 0 1.255-.52l.094-.319z" />
+                <path fill-rule="evenodd"
+                    d="M8 5.754a2.246 2.246 0 1 0 0 4.492 2.246 2.246 0 0 0 0-4.492zM4.754 8a3.246 3.246 0 1 1 6.492 0 3.246 3.246 0 0 1-6.492 0z" />
+            </svg><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-gear-fill" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                    d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 0 0-5.86 2.929 2.929 0 0 0 0 5.858z" />
+            </svg></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-button" style="color: mediumslateblue;">Menu</span>
+        </button>
+
+        <div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/GR-Engineers/index.html">Home&#160<svg width="1em" height="1em"
+                                viewBox="0 0 16 16" class="bi bi-house-fill" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                                <path fill-rule="evenodd"
+                                    d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                            </svg> <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/GR-Engineers/about.html">About Us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/GR-Engineers/products.html">Our Products</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Our Projects
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/GR-Engineers/customize.html">Vehicle Modification</a>
+                            <a class="dropdown-item" href="/GR-Engineers/bodyshop.html">Body Shop</a>
+                            <a class="dropdown-item" href="/GR-Engineers/vehmodify.html">Car Customization</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/GR-Engineers/contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Divider -->
+    <hr class="featurette-divider">
+
+    <!-- Products Body -->
+    <div class="container-fluid p-0">
+        <div class="site-content-products">
+            <div class="container my-4">
+                <h2 class="featurette-heading"><span style="font-style: italic;">Our Products</span></h2>
+                <div class="container my-4">
+                    <div class="row featurette d-flex justify-content-center align-item-center">
+                        <div class="col-md-7 order-md-1">
+                            <h4 class="featurette-heading"><span>
+                                    <h4>Pre-Engineered Structures</h4>
+                            </h4></span>
+                            <br>
+                            <p class="lead"><b>Primary Frame:</b> Primary framing of a PEB is an assembly of builtup
+                                I-Shaped
+                                steel members & that framing consist trusses or castellated beams etc.<br>
+                                <b>Secondary Structural Elements:</b> It is actually Cold Formed Members, which can be
+                                in
+                                diff. shapes like “Z”, “C” etc. In general known as “Purlins”.<br>
+                                <b>Roof & Wall Panels:</b> Tin shades & Curtain Wall made of Glass & Roll-formed steel
+                                sheets
+                                usually comes in this category , S<br>
+                                <b>Sandwich Panels:</b> Sandwich Panel is made of three layers , in which a non-Aluminum
+                                Core
+                                is inserted b/w two aluminum sheet.<br>
+                                <b>Other Accessories:</b> Mezzanine floors, Bolts, Insulation, etc.</p>
+                        </div>
+                        <div class="col-md-5 order-md-2">
+                            <img class="img-fluid" src="pre1.jpg" alt="">
+                            <img class="img-fluid" src="pre2.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <hr class="featurette-divider">
+
+                    <div class="row featurette d-flex justify-content-center align-item-center my-4">
+                        <div class="col-md-7 order-md-2">
+                            <h2 class="featurette-heading"><span><br>
+                                    <h4>Ensure Project Completions.</h4>
+                                </span>
+                            </h2>
+                            <br>
+                            <p class="lead">1. Fabricated Structural Metal Expansion joints (structural shapes):
+                                steel<br>
+                                2. Floor jacks: metal<br>
+                                3. Floor posts, adjustable: metal<br>
+                                4. Gates, dam: metal plate<br>
+                                5. Highway bridge sections: prefabricated metal<br>
+                                6. Joists, open web steel: long span series<br>
+                                7. Railway bridge sections: prefabricated metal<br>
+                                8. Steel joists, open web steel: long span series<br>
+                                9. Steel railroad car racks (for transporting motor vehicle, fabricated)<br>
+                                10. Structural steel, fabricated<br>
+                                11. Tower sections, transmission: prefabricated metal<br>
+                            </p>
+                        </div>
+                        <div class="col-md-5 order-md-1">
+                            <img class="img-fluid" src="product3.jfif" alt="">
+                            <img class="img-fluid" src="product4.jfif" alt="">
+                        </div>
+                    </div>
+
+                    <hr class="featurette-divider">
+
+                    <div class="row featurette d-flex justify-content-center align-item-center">
+                        <div class="col-md-7 order-md-1">
+                            <h2 class="featurette-heading"><span>
+                                    <h4>Pre Fabricated Structure</h4>
+                                </span>
+                            </h2>
+                            <br>
+                            <p class="lead">We are counted amongst the foremost manufacturers and suppliers of Pre
+                                Fabricated
+                                Structure. The offered range is manufactured from supreme quality raw material procured
+                                from
+                                reliable and certified vendors of the market with the help of our highly skilled
+                                engineers. This
+                                structure can be easily assembled or fitted at the construction site without any kind of
+                                damage.
+                                Furthermore, electricity supply and air-conditioning systems can also be easily
+                                integrated with
+                                this structure and impart aesthetic interior. Available in various shapes, sizes and can
+                                be
+                                custom tailored as per the demands of the clients. Some of the salient features of this
+                                range
+                                are:
+                                 Elegant design
+                                Cost-effective
+                                High rigidity
+                                Sturdiness
+
+                            </p>
+                        </div>
+                        <div class="col-md-5 order-md-2">
+                            <img class="img-fluid" src="about4.png" alt="">
+                            <img class="img-fluid" src="about5.png" alt="">
+                        </div>
+                    </div>
+
+                    <hr class="featurette-divider">
+
+                    <div class="row featurette d-flex justify-content-center align-item-center my-4">
+                        <div class="col-md-7 order-md-2">
+                            <h2 class="featurette-heading"><span><br>
+                                    <h4>MS Fabrications</h4>
+                                </span>
+                            </h2>
+                            <br>
+                            <p class="lead">We offer wide range of MS fabrication, which includes varied designs of
+                                structures
+                                for roofing systems. These fabrications are undertaken by highly qualified engineers and
+                                designers who are well versed with the latest designs and technology. Our fabrications
+                                works are
+                                catered by well known architects and renowned builders. Further, we also offer various
+                                customized solutions to our clients to suit their special requirements. The different
+                                types of
+                                fabrication designs offered by us are: Arch type
+                                Pyramid type
+                                Dome type
+
+                            </p>
+                        </div>
+
+                        <hr class="featurette-divider">
+
+                        <div class="col-md-5 order-md-1">
+                            <img class="img-fluid" src="about6.png" alt="">
+                        </div>
+                    </div>
+
+                    <hr class="featurette-divider">
+
+                    <div class="row featurette d-flex justify-content-center align-item-center">
+                        <div class="col-md-7 order-md-1">
+                            <h2 class="featurette-heading"><br> <span>
+                                    <h4>Metal Fabrication Job Works</h4>
+
+                                </span>
+                            </h2>
+                            <br>
+                            <p class="lead">We are ranked amongst the well-known service providers of Sheet Metal
+                                Fabrication
+                                Job Works. These works are rendered in adherence with set market norms using latest
+                                machines and
+                                techniques in order to ensure quality and durability of the done works. For executing
+                                these
+                                works the material we use is sourced from registered and certified vendors of the
+                                market. This
+                                range has gained immense appreciation among our clients of various industrial and
+                                domestic
+                                sectors. In addition, we offer these services as per the needs and requirements of the
+                                clients.
+
+
+                            </p>
+                        </div>
+                        <div class="col-md-5 order-md-2">
+                            <img class="img-fluid" src="about7.png" alt="">
+                            <img class="img-fluid" src="about8.png" alt="">
+                        </div>
+                    </div>
+
+                    <hr class="featurette-divider">
+
+                    <div class="row featurette d-flex justify-content-center align-item-center my-4">
+                        <div class="col-md-7 order-md-2">
+                            <h2 class="featurette-heading"><span><br>
+                                    <h4>Heavy Fabricators
+                                    </h4>
+                                </span>
+                            </h2>
+                            <br>
+                            <p class="lead">We offer a range of precision heavy fabricators equipment for varied
+                                engineering and
+                                construction industry. These are used in the production of various steel housing for
+                                various
+                                applications. We are instrumental in providing reliable heavy industrial welding work.
+                                Owing to
+                                the support of diligent and able technicians, we can render these services with optimum
+                                quality
+                                standards. These services are useful as industries can easily meet their welding needs
+                                at market
+                                competitive prices. All of these services are rendered in full compliance with
+                                international
+                                standards of quality. Some of the salient features of this service are:
+                                 
+                                Customization facility
+                                Timely execution
+
+
+                            </p>
+                        </div>
+                        <div class="col-md-5 order-md-1">
+                            <img class="img-fluid" src="about9.png" alt="">
+                            <img class="img-fluid" src="about10.png" alt="">
+                        </div>
+                    </div>
+
+                    <hr class="featurette-divider">
+
+                    <div class="row featurette d-flex justify-content-center align-item-center">
+                        <div class="col-md-7 order-md-1">
+                            <h2 class="featurette-heading"><br> <span>
+                                    <h4>Foundation Bolt & Expansion Joints
+                                    </h4>
+
+                                </span>
+                            </h2>
+                            <br>
+                            <p class="lead">We are a renowned manufacturer and supplier of an optimal range of
+                                Foundation Bolt.
+                                Apart from this, we are also engaged in rendering an array of highly reliable and timely
+                                executed Fabrication Services. We are engaged in offering an extensive M.S. Fabrication
+                                works
+                                these are available in various types such as sheet metal fabrication work services,
+                                pipeline
+                                fabrication work services, and structural steel fabrication work services. These are
+                                manufactured using best quality of raw material that helps us attain maximum success
+                                varied task
+                                under taken by us. Further, we are backed by an efficient team of professionals
+                                machinery that
+                                enable us in fulfilling diverse requirements of our clients within the committed time
+                                frame.
+                                Further, we also manufacture tanks, plants and other fabricated products according to
+                                the
+                                clients specific requirements and also provide services for the same.
+                                We hold the expertise in fabrication rolling shell capacity, which are widely demanded
+                                in across
+                                numerous industries. Our professionals make sure that job is accomplished within least
+                                possible
+                                time. Our professionals closely monitor the entire process. Apart from that, our vendors
+                                use
+                                supreme quality ms plates and latest technology and components to manufacture these
+                                rolling
+                                shell. 
+
+                            </p>
+                        </div>
+                        <div class="col-md-5 order-md-2">
+                            <img class="img-fluid" src="about11.png" alt="">
+                            <img class="img-fluid" src="about12.png" alt="">
+                        </div>
+                    </div>
+
+                    <hr class="featurette-divider">
+
+                    <div class="row featurette d-flex justify-content-center align-item-center my-4">
+                        <div class="col-md-7 order-md-2">
+                            <h2 class="featurette-heading"><span><br>
+                                    <h4>Conical Steel Fabrication
+                                    </h4>
+                                </span>
+                            </h2>
+                            <br>
+                            <p class="lead">Conical Steel Fabrication used in Oil & gas industry
+                                We provide our customers Conical Metal Fabrication which are manufactured using quality
+                                raw
+                                materials. These products are fabricated out of stainless steel, which are procure from
+                                our
+                                reliable vendor. These are manufactured in accordance with international quality
+                                standards.
+                                Apart from that, we also offer these products in varied specifications to suit the
+                                clients’
+                                application requirement. Our products are highly demanded in the market for the
+                                following
+                                features:
+                                Service life
+                                High dimensional accuracy.<br><br>Supplier, Manufacturer and Service Provider of S S
+                                Pipes such
+                                as
+                                Large Diameter Pipes, Seamless Pipes / Tubes, U-Tubes and TIG Welded Polished Pipes.
+
+
+
+                            </p>
+                        </div>
+                        <div class="col-md-5 order-md-1">
+                            <img class="img-fluid" src="about13.png" alt="">
+                            <img class="img-fluid" src="about14.png" alt="">
+                            <img class="img-fluid" src="about15.png" alt="">
+                        </div>
+                    </div>
+
+                    <hr class="featurette-divider">
+
+                    <div class="row featurette d-flex justify-content-center align-item-center">
+                        <div class="col-md-7 order-md-1">
+                            <h2 class="featurette-heading"><br> <span>
+                                    <h4>TIG Welded Polished Pipes & Chimney
+                                    </h4>
+
+                                </span>
+                            </h2>
+                            <br>
+                            <p class="lead">Heavy equipments have achieved specialization in manufacturing chimneys for
+                                diverse
+                                industrial segments. Till now, we have manufactured more than 30 nos. of chimneys for
+                                our
+                                various reputed clients. We undertake designing, erection, manufacturing as well as
+                                executing
+                                work of chimneys for providing all the solutions to the clients under one roof.
+                            </p>
+                        </div>
+                        <div class="col-md-5 order-md-2">
+                            <img class="img-fluid" src="about16.png" alt="">
+                            <img class="img-fluid" src="about17.png" alt="">
+                            <img class="img-fluid" src="about18.png" alt="">
+                        </div>
+                    </div>
+
+                    <hr class="featurette-divider">
+
+                    <div class="row featurette d-flex justify-content-center align-item-center my-4">
+                        <div class="col-md-7 order-md-2">
+                            <h2 class="featurette-heading"><span><br>
+                                    <h4>SS Storage Vessels
+
+                                    </h4>
+                                </span>
+                            </h2>
+                            <br>
+                            <p class="lead">Customers can purchase from us, a wide assortment of SS Storage Tanks, which
+                                are
+                                manufactured using premium quality materials. Being durable in nature, these are widely
+                                demanded
+                                by Engineering and Other Heavy Industries. We have a team of quality analysts, which
+                                checks
+                                these on defined parameters, to ensure that customers are offered with a defect free
+                                range of SS
+                                storage vessels. Customization facility is also provided by us that helps in meeting the
+                                different requirements of customers.
+
+                            </p>
+                        </div>
+                        <div class="col-md-5 order-md-1">
+                            <img class="img-fluid" src="about19.png" alt="">
+                            <img class="img-fluid" src="about20.png" alt="">
+                        </div>
+                    </div>
+
+                    <hr class="featurette-divider">
+
+                    <div class="row featurette d-flex justify-content-center align-item-center">
+                        <div class="col-md-7 order-md-1">
+                            <h2 class="featurette-heading"><br> <span>
+                                    <h4>SS Kitchen Equipments & Furniture
+
+                                    </h4>
+
+                                </span>
+                            </h2>
+                            <br>
+                            <p class="lead">Being an eminent organization, we hold expertise in offering an assortment
+                                of SS
+                                Kitchen Equipment & Furniture that are available with us in various designs, patterns
+                                and
+                                shapes. Our experienced professionals manufacture these using superior grade stainless
+                                steel and
+                                other materials, which are procured from reliable vendors of the market. Developed
+                                utilizing
+                                advanced methodology, our range is highly demanded by Restaurants, Cafes, Fast Food
+                                Corners,
+                                Hospital Canteens and other allied products.
+
+                            </p>
+                        </div>
+                        <div class="col-md-5 order-md-2">
+                            <img class="img-fluid" src="about21.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page Divider -->
+    <hr class="featurette-divider">
+
+    <!-- Bottom Links -->
+    <div class="link-bottom">
+        <a href="/GR-Engineers/about.html">About Us</a>&#160&#160
+        <a href="/GR-Engineers/products.html">Our Products</a>&#160&#160
+        <a href="/GR-Engineers/contact.html">Contact Us</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2020 G.R.Engineers pvt ltd, All rights reserved.
+        </p>
+        <div class="centerdiv">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <!-- <a href="#" class="fa fa-whatsapp"></a> -->
+            <a href="#" class="fa fa-linkedin"></a>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
